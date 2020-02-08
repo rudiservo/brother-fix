@@ -22,3 +22,5 @@ and change the papertype
 
 
 this is for the DCP105C the comand might be different if you have any other brother printer
+
+also for 32bit drivers on 64 bit systems under ubuntu dont forget to install lib32z1
