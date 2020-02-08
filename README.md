@@ -24,3 +24,10 @@ and change the papertype
 this is for the DCP105C the comand might be different if you have any other brother printer
 
 also for 32bit drivers on 64 bit systems under ubuntu dont forget to install lib32z1
+
+Also cups has an issue with apparmor
+```
+# aa-complain cupsd
+```
+
+this disable app armor for cup, althouth it is necessary a better alternative then to just disable it
